@@ -2,9 +2,9 @@ package Locator_Concept;
 
 import java.util.concurrent.TimeUnit;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+//import org.junit.After;
+//import org.junit.Before;
+//import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +13,7 @@ public class VariousLocators {
 
 	WebDriver driver;
 	
-	@Before
+	//@Before
 	public void init() {
 		// init means intialization
 
@@ -28,7 +28,7 @@ public class VariousLocators {
 		
 		
 	}
-	@Test
+	//@Test
 	public void learnLocators() throws Exception {
 		//Locator: Name
 		driver.findElement(By.name("firstname")).sendKeys("abcdef");
